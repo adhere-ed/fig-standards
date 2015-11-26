@@ -18,6 +18,7 @@ interpreted as described in [RFC 2119].
 -----------
 
 - Files MUST use only `<?php` and `<?=` tags.
+    __RECOMMEND NOT USING <?=__
 
 - Files MUST use only UTF-8 without BOM for PHP code.
 
