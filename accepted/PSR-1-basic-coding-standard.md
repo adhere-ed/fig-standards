@@ -42,7 +42,7 @@ interpreted as described in [RFC 2119].
 PHP code MUST use the long `<?php ?>` tags or the short-echo `<?= ?>` tags; it
 MUST NOT use the other tag variations.
 
-#RECOMMEND NOT USING <?=
+####RECOMMEND NOT USING <?=
 
 ### 2.2. Character Encoding
 
@@ -170,7 +170,7 @@ Whatever naming convention is used SHOULD be applied consistently within a
 reasonable scope. That scope may be vendor-level, package-level, class-level,
 or method-level.
 
-#What consensus can we reach on this? Since a method will use properties from the class, and class variables might be used outside the class too, it doesn't make much sense to restrict the scope below the app level. Long variable names are more specific so probably better. A 10-word camelCase variable name such as $listOfRetailersWithOnlyOneProductInTodaysScrape is 9 characters shorter than $list_of_retailers_with_only_one_product_in_todays_scrape
+####What consensus can we reach on this? Since a method will use properties from the class, and class variables might be used outside the class too, it doesn't make much sense to restrict the scope below the app level. Long variable names are more specific so probably better. A 10-word camelCase variable name such as $listOfRetailersWithOnlyOneProductInTodaysScrape is 9 characters shorter than $list_of_retailers_with_only_one_product_in_todays_scrape
 
 
 ### 4.3. Methods
